@@ -1,0 +1,31 @@
+# --- Core Deep Learning & NLP ---
+# PyTorch is the primary framework for LayoutLM fine-tuning
+torch>=2.0.0
+# Hugging Face ecosystem for LayoutLM model and preprocessing tools
+transformers>=4.30.0
+datasets>=2.0.0
+# For robust NER evaluation (F1-Score calculation)
+seqeval>=1.2.2
+# PyTorch utilities for model training, optimization, and GPU management
+accelerate>=0.20.0 
+evaluate>=0.4.0
+
+# --- Document Processing & Computer Vision ---
+# Pillow is the standard library for basic image manipulation (resizing, opening, etc.)
+Pillow>=9.0.0
+# For drawing bounding boxes and other advanced image operations (optional, but highly recommended)
+opencv-python>=4.0.0
+# Used for the initial OCR step (tokenization/bounding box generation)
+pytesseract>=0.3.10
+# Pandas is essential for loading and processing the SROIE/FUNSD CSV/JSON data
+pandas>=2.0.0
+# NumPy is the foundation for all array/tensor operations
+numpy>=1.23.0
+
+# --- Deployment & Web Service (Phase 3) ---
+# Streamlit for the user-friendly web application/interface
+streamlit>=1.20.0
+# FastAPI for creating the production-ready REST API service
+fastapi>=0.95.0
+# Standard package for using FastAPI
+uvicorn>=0.21.0
