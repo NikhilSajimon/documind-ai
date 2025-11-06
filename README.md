@@ -101,3 +101,4 @@ The following data points prove the necessity of using the **LayoutLM** model ov
 | **Layout Variance** (Table Generated) | Confirmed original document widths and heights vary significantly across the dataset (e.g., $W=762$ up to $W=1200$). | **Validates Normalization:** Explicitly justifies the need for the $\mathbf{0} \text{ to } \mathbf{1000}$ scaling implemented. |
 
 ---
+day 3
